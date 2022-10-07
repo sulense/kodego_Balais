@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="added exercise 1 package&#10;added Main.kt in exercise_1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Excercise1/Main.kt" afterDir="false" />
+    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Excercise1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Excercise1/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Excercise1.MainKt" />
+      <module name="KodeGoExcercisesBalais1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665057131158</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added exercise 1 package&#10;added Main.kt in exercise_1">
+      <created>1665059716637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665059716638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added exercise 1 package&#10;added Main.kt in exercise_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added exercise 1 package&#10;added Main.kt in exercise_1" />
+    <MESSAGE value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
+    <option name="LAST_COMMIT_MESSAGE" value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
   </component>
 </project>
