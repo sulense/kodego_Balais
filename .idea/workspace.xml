@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;int&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/excercise1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/excercise1/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Excercise1.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="excercise1.MainKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665143735804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;int&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
+      <created>1665145776982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665145776982</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
