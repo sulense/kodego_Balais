@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
+    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;int&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665142892706</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;int&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
+      <created>1665143735804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665143735804</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +118,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added exercise 1 package&#10;added Main.kt in exercise_1" />
     <MESSAGE value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
-    <option name="LAST_COMMIT_MESSAGE" value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
+    <MESSAGE value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;int&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
+    <option name="LAST_COMMIT_MESSAGE" value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;int&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
   </component>
 </project>
