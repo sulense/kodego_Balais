@@ -20,7 +20,7 @@ fun main() {
     var state = "N/A"
     var Zip = "400"
     var homePhone = "7463764786"
-    var cellPHone = "0922222222"
+    var cellPhone = "0922222222"
     var socialSecuritySys = "657676"
     var usCitizen = "Yes"
     var beenConvicted = "No"
@@ -45,7 +45,7 @@ fun main() {
     println("State: $state")
     println("Zip: $Zip")
     println("Home Phone: $homePhone")
-    println("Cellphone: $cellPHone")
+    println("Cellphone: $cellPhone")
     println("Social Security Nummer: $socialSecuritySys")
     println("Are you a U.S. Citizen? $usCitizen")
     println("Have you ever been convicted of a felony? $beenConvicted")
