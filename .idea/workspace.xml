@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Excercise1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Excercise1/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665059716638</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
+      <created>1665142822334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665142822334</updated>
+    </task>
+    <task id="LOCAL-00004" summary="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign">
+      <created>1665142892706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665142892706</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

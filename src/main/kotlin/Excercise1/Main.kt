@@ -9,7 +9,7 @@ import java.util.Date
 fun main() {
 //Application for Employment
     var positionApplying = "Chef"
-    var desiredSalary = "1000000"
+    var desiredSalary = 10000
     var dateAvail4work =  LocalDateTime.of(2022, Month.JANUARY, 5, 8, 10)
     var dateFormat1 = DateTimeFormatter.ofPattern("M/d/y H:m:ss")
 //PERSONAL INFORMATION
