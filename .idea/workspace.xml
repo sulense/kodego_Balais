@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="excercise 1 &#10;application for employment&#10;&#10;variable declaration">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_a.kt" afterDir="false" />
+    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="Assignment01_a&#10;added student personal info&#10;added attendance&#10;added performance">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_b.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +44,16 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TryKt">
+  <component name="RunManager" selected="Kotlin.Activity01_bKt">
     <configuration name="Activity01_aKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="activity01.Activity01_aKt" />
+      <module name="KodeGoExcercisesBalais1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Activity01_bKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity01.Activity01_bKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Activity01_bKt" />
         <item itemvalue="Kotlin.TryKt" />
         <item itemvalue="Kotlin.Activity01_aKt" />
         <item itemvalue="Kotlin.MainKt" />
@@ -134,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665146770802</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Assignment01_a&#10;added student personal info&#10;added attendance&#10;added performance">
+      <created>1665291409029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665291409029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +167,7 @@
     <MESSAGE value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
     <MESSAGE value="excercise 1 &#10;application for employment&#10;&#10;lessons:&#10;var&#10;correct naming&#10;string&#10;int&#10;comment&#10;println&#10;date&#10;the use of &quot;$&quot; sign" />
     <MESSAGE value="excercise 1 &#10;application for employment&#10;&#10;variable declaration" />
-    <option name="LAST_COMMIT_MESSAGE" value="excercise 1 &#10;application for employment&#10;&#10;variable declaration" />
+    <MESSAGE value="Assignment01_a&#10;added student personal info&#10;added attendance&#10;added performance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment01_a&#10;added student personal info&#10;added attendance&#10;added performance" />
   </component>
 </project>
