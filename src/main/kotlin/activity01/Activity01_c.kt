@@ -82,8 +82,9 @@ fun main() {
     var soapPrice = BigDecimal(15.00)
     println("16. $soap \n Price: $soapPrice \n---------------")
 
+    var selectedItem:Int? = null
     println("Add to cart:")
-    var selectedItem = readLine()!!.toInt()
+    selectedItem = readLine()!!.toInt()
 
     var selectedItem1 = when {
         selectedItem == 1 -> println("Added 1 $cabbage to your cart")

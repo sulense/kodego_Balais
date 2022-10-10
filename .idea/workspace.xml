@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="added grocery store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_a.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_c.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_c.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Activity01_cKt">
+  <component name="RunManager" selected="Kotlin.Activity01_aKt">
     <configuration name="Activity01_aKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="activity01.Activity01_aKt" />
       <module name="KodeGoExcercisesBalais1.main" />
@@ -82,10 +83,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Activity01_bKt" />
-        <item itemvalue="Kotlin.Activity01_cKt" />
-        <item itemvalue="Kotlin.TryKt" />
         <item itemvalue="Kotlin.Activity01_aKt" />
+        <item itemvalue="Kotlin.Activity01_cKt" />
+        <item itemvalue="Kotlin.Activity01_bKt" />
+        <item itemvalue="Kotlin.TryKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665402011616</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added grocery store">
+      <created>1665402883107</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665402883107</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
