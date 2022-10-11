@@ -18,7 +18,7 @@ fun main() {
     var parentsName:String? = "Nadin Ried"
     var emailAddress:String? = "Jamesnadin142@gmail.com"
     var homeAddres:String? = "Zone 10 Ph Street Cagayan de Oro"
-    println("Birthday: $birthDay \n Cellphone Number: $cellPhoneNumber \n Parent's Name: $parentsName\n Email Address: $emailAddress \n Home Address: $homeAddres")
+    println("Birthday: $birthDay \nCellphone Number: $cellPhoneNumber \nParent's Name: $parentsName \nEmail Address: $emailAddress \nHome Address: $homeAddres")
 //student1 Daily Attendance
     println("Attendance:")
     var present:Boolean? = true
