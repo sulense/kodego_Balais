@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="added grocery store">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_d.kt" afterDir="false" />
+    <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="added activity1_d">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_a.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_d.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_d.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665404425596</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added activity1_d">
+      <created>1665452956956</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665452956956</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +213,7 @@
     <MESSAGE value="Assignment01_a&#10;added student personal info&#10;added attendance&#10;added performance" />
     <MESSAGE value="Assignment01_b&#10;Added five books&#10;Added Book Characteristics" />
     <MESSAGE value="added grocery store" />
-    <option name="LAST_COMMIT_MESSAGE" value="added grocery store" />
+    <MESSAGE value="added activity1_d" />
+    <option name="LAST_COMMIT_MESSAGE" value="added activity1_d" />
   </component>
 </project>
