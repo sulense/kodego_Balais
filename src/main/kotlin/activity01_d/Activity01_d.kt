@@ -1,7 +1,6 @@
-package activity01
+package activity01_d
 
 import java.math.BigDecimal
-import java.util.*
 
 
 fun main() {
