@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="Updating Activities">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_a/Activity01_a.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity1_b/Activity01_b.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity1_c/Activity01_c.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_I/Activity01_I.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_f/Activity01_f.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_g/Activity01_g.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_h/Activity01_h.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_j/Activity01_j.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_A/Activity02_A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_B/Activity02_B.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_C/Activity02_C.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_D/Activity02_D.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity03_a/Activity03_A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity03_b/Activity03_B.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity03_c/Activity03_C.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity04_a/Activity04_a.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity04_b_inc/Activity04_b.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity04_c/Activity04_c.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_a/Activity05_a.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_b/Activity05_b.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excercise_oop_inc/Excercise_OOP.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_a.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_b.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_c.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01/Activity01_d.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity1_d/Activity01_d.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_d/Activity01_d.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_d/Activity01_d.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KodeGoExcercisesBalais1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,38 +80,37 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Activity01_dKt">
-    <configuration name="Activity01_aKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity01_a.Activity01_aKt" />
+  <component name="RunManager" selected="Kotlin.Activity04_bKt">
+    <configuration name="Activity01_IKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity01_I.Activity01_IKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity01_bKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity01_a.Activity01_bKt" />
+    <configuration name="Activity01_jKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity01_j.Activity01_jKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity01_cKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity01_a.Activity01_cKt" />
+    <configuration name="Activity02_AKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity02_A.Activity02_AKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity01_dKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity1_d.Activity01_dKt" />
+    <configuration name="Activity04_aKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity04_a.Activity04_aKt" />
       <module name="KodeGoExcercisesBalais1.main" />
-      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity01_a.TryKt" />
+    <configuration name="Activity04_bKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity04_b_inc.Activity04_bKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Activity01_dKt" />
-        <item itemvalue="Kotlin.Activity01_aKt" />
-        <item itemvalue="Kotlin.Activity01_cKt" />
-        <item itemvalue="Kotlin.Activity01_bKt" />
-        <item itemvalue="Kotlin.TryKt" />
+        <item itemvalue="Kotlin.Activity04_bKt" />
+        <item itemvalue="Kotlin.Activity04_aKt" />
+        <item itemvalue="Kotlin.Activity01_jKt" />
+        <item itemvalue="Kotlin.Activity02_AKt" />
+        <item itemvalue="Kotlin.Activity01_IKt" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665747385800</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updating Activities">
+      <created>1665919653839</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665919653839</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,4 +1,4 @@
-package activity01_d
+package activity02_D
 
 import java.math.BigDecimal
 
@@ -14,11 +14,11 @@ fun main() {
     println("Please enter the 5 monetary amount")
 
     print("1. ")
-     monetary1 = readLine()!!.toIntOrNull()
+    monetary1 = readLine()!!.toIntOrNull()
     if (monetary1 == null) {
         print("Please use Number!")
         return
-        }
+    }
     else (print("2. "))
 
     monetary2 = readLine()!!.toIntOrNull()
@@ -27,25 +27,25 @@ fun main() {
     }
     else (print("3. "))
 
-     monetary3 = readLine()!!.toIntOrNull()
+    monetary3 = readLine()!!.toIntOrNull()
     if (monetary3 == null) {
         print("Please use Number!")
     }
     else (print("4. "))
 
-     monetary4 = readLine()!!.toIntOrNull()
+    monetary4 = readLine()!!.toIntOrNull()
     if (monetary4 == null) {
         print("Please use Number!")
     }
     else (print("5. "))
 
-      monetary5 = readLine()!!.toIntOrNull()
+    monetary5 = readLine()!!.toIntOrNull()
     if (monetary5 == null) {
         print("Please use Number!")
     }
     else (print("Divide by how many? "))
 
-   var divideByHowMany = readLine()!!.toIntOrNull()
+    var divideByHowMany = readLine()!!.toIntOrNull()
     if (divideByHowMany == null) { println("Please use Number!")
     }
     else if (divideByHowMany == 0){ println("undefined")
