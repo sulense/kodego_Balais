@@ -1,8 +1,6 @@
 package activity01_h
 
-import java.util.*
 import mu.KotlinLogging
-private val logger = KotlinLogging.logger {}
 
 //Create an application that will accept 2 Integers.
 //
@@ -22,50 +20,68 @@ private val logger = KotlinLogging.logger {}
 
 
 
-//Function to check Prime Number
-fun findPrimeNo(number: Long): Boolean {
-    if(number<2) return false
-    for (i in 2.toLong()..number/2) {
-        if (number % i == 0.toLong()) {
-            return false
+
+private val logger = KotlinLogging.logger {}
+fun main() {
+    logger.info{"Enter two integers:"}
+    val a = readLine()!!.toInt()
+    val b = readLine()!!.toInt()
+
+    val lower = if (a < b) a else b
+    val upper = if (a < b) b else a
+
+
+    logger.info{"Prime numbers between $lower and $upper are:"}
+    for (num in lower..upper) {
+        var returnSign = true
+        if (num < 2) {
+            returnSign = false
         }
-    }
-    return true
-}
-
-//Main Function, Entry Point of Program
-fun main(arg: Array<String>) {
-
-    var low = 0L
-    var high = 0L
-    //Input Stream
-    print("Enter Input 1: ")
-    var userInput1 = readLine()!!.toLong()
-
-    print("Enter Input 2: ")
-    var userInput2= readLine()!!.toLong()
-
-    if(userInput1 > userInput2){
-        low = userInput2
-        high = userInput1
-
-    }
-
-    else if (userInput1 < userInput2){ low = userInput1
-        high = userInput1}
-
-
-
-    //Declare Mutable List to hold factors
-    val list: MutableList<Long> = ArrayList()
-
-    //iterate through loop start to end to find Prime  number in Range
-        for (i in low..high) {
-            if (findPrimeNo(i)) {
-                list.add(i)
+        for (i in 2 until num) {
+            if (num % i == 0) {
+                returnSign = false
+                break
             }
         }
-
-
-    println("Prime Numbers from $low to $high  : $list")
+        if (returnSign) {
+            logger.info{num}
+        }
+    }
 }
+
+//    for (i in lower..upper){
+//        if (i < 2) {
+//         continue}
+//        else {
+//                if (i % 2 == 0) {
+//                  continue
+//                }else{
+//                    logger.info{i}
+//                }
+//
+//        }
+//
+//    }
+
+
+
+//    for (i in lower..upper) {
+//        if (isPrime(i)) {
+//            logger.info{i}
+//        }
+//    }
+//
+//check kung prime number
+//fun isPrime(n: Int): Boolean {
+//    if (n < 2) {
+//        return false
+//    }
+//    for (i in 2 until n) {
+//        if (n % i == 0) {
+//            return false
+//        }
+//    }
+//    return true
+//}
+
+

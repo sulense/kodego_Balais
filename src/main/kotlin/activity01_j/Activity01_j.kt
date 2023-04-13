@@ -1,52 +1,75 @@
 package activity01_j
+import mu.KotlinLogging
 
-import java.math.BigDecimal
+private val logger = KotlinLogging.logger {}
 
-@Suppress("UNREACHABLE_CODE")
 fun main() {
-//Items
-    var items: Map<Int , String> = mapOf((1 to "Cabbage"), (2 to "potato"), (3 to "egg plant"), ( 4 to "okra"),
-        (5 to "beef"), (6 to "chicken"), (7 to "fish"), ( 8 to "pork"),
-        (9 to "mineral water"), (10 to "milk"), (11 to "beer"), ( 12 to "soft drink"),
-        (13 to "cotton"), (14 to "cotton buds"), (15 to "alcohol"), ( 16 to "soap"))
+    val groceryItems = mapOf(
+        "cabbage" to 2.5,
+        "potato" to 3.0,
+        "okra" to 4.0,
+        "eggplant" to 5.0,
+        "beef" to 12.0,
+        "chicken" to 8.0,
+        "fish" to 15.0,
+        "pork" to 10.0,
+        "mineral water" to 1.0,
+        "milk" to 3.0,
+        "beer" to 5.0,
+        "soft drink" to 2.0,
+        "cotton" to 1.0,
+        "cotton buds" to 1.5,
+        "alcohol" to 2.0,
+        "soap" to 3.0
+    )
 
+    var cartItems = mutableMapOf<String, Int>()
+    var totalCost = 0.0
 
-//Prices
-    var Prices: Map<String, Double> = mapOf(
-        ("Cabbage" to 5.0), ("potato" to 3.0), ("egg plant" to 2.0), ("okra" to 1.0), //Vegetables
-        ("beef" to 1.0), ("chicken" to 1.0), ("fish" to 1.0),("pork" to 1.0),        //Meat
-        ("mineral water" to 1.0),("milk" to 1.0), ("beer" to 1.0),("soft drink" to 1.0),//Beverage
-        ("cotton" to 1.0),("cotton buds" to 1.0),("alcohol" to 1.0),("soap" to 1.0))//Hygiene
+    while (true) {
+//        logger.info{groceryItems}
+        logger.info{"Enter item name or 'done' to finish: "}
+        val itemName = readLine()?.toLowerCase()
+        var itemQuantity:Int? = null
 
-    var itemsOrdered:List<String> = mutableListOf<String>()
-    var itemsOrdered1= itemsOrdered as ArrayList
-    var total = 0.0
+        if (itemName == "done") break
 
-    while(true){
-        print("Code: ")
-        var x = readLine()!!.toIntOrNull()
-
-        if(x in items){
-            var y = items.get(x)
-            if (y != null) {
-                itemsOrdered1.add(y)
-            }
-            println("Items Ordered: $itemsOrdered1")
-
-            }
-        else break
+        if (itemName == null || itemName =="") {
+            logger.info{"Invalid Input"}
+            continue
         }
 
-    for(item in itemsOrdered1){
-        if(item in Prices){
-            var z = Prices.get(item)
-            if(z != null) total += z
+        if (itemName !in groceryItems.keys) {
+            logger.info{"Item not found."}
+            continue
         }
+
+        while(true){
+            logger.info{"Enter quantity: "}
+             itemQuantity = readLine()!!.toIntOrNull()
+            if (itemQuantity == null) {
+                logger.info{"Invalid quantity."}
+                continue
+            }
+            else{
+                break
+            }
+        }
+
+
+        cartItems[itemName!!] = cartItems.getOrDefault(itemName, itemQuantity!!)
+        totalCost += groceryItems[itemName]!! * itemQuantity!!
     }
-    println("Items Ordered: $itemsOrdered1")
-    println("Total:₱$total")
-    12
-        }
+
+    logger.info{"Items bought:"}
+    cartItems.forEach { (item, quantity) ->
+        logger.info{"- $item: $quantity"}
+    }
+//    logger.info{cartItems}
+    logger.info{"Total cost: $totalCost"}
+}
+
+
 
 
 

@@ -15,17 +15,17 @@ fun main() {
     var cellPhoneNumber:String? = null
     var parentsName:String? = null
     var emailAddress:String? = null
-    var homeAddres:String? = null
+    var homeAddress:String? = null
+
 //student1 Daily Attendance
     var present:Boolean? = null
     var late:Boolean? = null
-    var DailyAttendance: Date? = null
+    var dailyAttendance: Date? = null
 
 //Performance
     var activityGrade:Double? = null
     var assignmentGrade:Double? = null
     var examGrade:Double? = null
-
     var subjectName:String? = null
 //Activities
     //activity1

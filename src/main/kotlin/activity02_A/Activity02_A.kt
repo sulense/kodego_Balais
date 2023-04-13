@@ -2,54 +2,133 @@ package activity02_A
 
 import java.util.*
 import mu.KotlinLogging
+import kotlin.collections.ArrayList
+
 private val logger = KotlinLogging.logger {}
 
+//Implement Activity 01 -  A using data structure.
+data class Student(
+    var lastName: String?,
+    var firstName: String?,
+    var middleName: String?,
+    var birthDay: Date?,
+    var cellPhoneNumber: String?,
+    var parentsName: String?,
+    var emailAddress: String?,
+    var homeAddress: String?,
+    var dailyAttendance: Attendance?,
+    var performance: Performance?
+)
 
-fun main() {
-//Student 1 Personal Information
-    var studentDetails = mutableMapOf(("Last Name"  to  ""), ("First Name" to ""),("Middle Name" to ""),
-        ("Birth Day" to ""),("Cellphone Number" to ""), ("Parents Name" to ""), ("Email Address" to ""), ("Home Address" to ""),
-        ("Student Attendance" to ""), ("Student General Average" to ""))
+data class Attendance(
+    var present: Boolean?,
+    var late: Boolean?,
+    var date: Date?
+)
 
-    logger.info{"Last Name"}
-    var lastName = readln()
-    studentDetails.put("Last Name", lastName)
+data class Performance(
+    var subjectName: String?,
+    var activities: List<Activity>?,
+    var assignments: List<Assignment>?,
+    var exam: Exam?
+)
 
-    logger.info{"First Name"}
-    var firstName = readln()
-    studentDetails.put("First Name", firstName)
+data class Activity(
+    var title: String?,
+    var passingScore: Double?,
+    var totalNumber: Double?,
+    var score: Double?
+)
 
-    logger.info{"Middle Name"}
-    var middleName = readln()
-    studentDetails.put("Middle Name", middleName)
+data class Assignment(
+    var title: String?,
+    var passingScore: Double?,
+    var totalNumber: Double?,
+    var score: Double?
+)
 
-    logger.info{"Birth Day"}
-    var birthDay = readln()
-    studentDetails.put("Birth Day", birthDay)
+data class Exam(
+    var totalNumber: Double?,
+    var score: Double?,
+    var passingScore: Double?
+)
 
-    logger.info{"Cellphone Number"}
-    var cellPhoneNumber = readln()
-    studentDetails.put("Cellphone Number", cellPhoneNumber)
 
-    logger.info{"Parents Name"}
-    var parentsName = readln()
-    studentDetails.put("Parents Name", parentsName)
 
-    logger.info{"Email Address"}
-    var emailAddress = readln()
-    studentDetails.put("Email Address", emailAddress)
+fun main(){
+    var student = Student(
+        lastName = null,
+        firstName = null,
+        middleName = null,
+        birthDay = null,
+        cellPhoneNumber = null,
+        parentsName = null,
+        emailAddress = null,
+        homeAddress = null,
+        dailyAttendance = null,
+        performance = null
+    )
 
-    logger.info{"Home Address"}
-    var homeAddress = readln()
-    studentDetails.put("Home Address", homeAddress)
+    student.performance = Performance(
+        subjectName = "Math",
+        activities = listOf(
+            Activity(title = "Activity 1", passingScore = 70.0, totalNumber = 100.0, score = 85.0),
+            Activity(title = "Activity 2", passingScore = 70.0, totalNumber = 100.0, score = 90.0),
+            Activity(title = "Activity 3", passingScore = 70.0, totalNumber = 100.0, score = 75.0)
+        ),
+        assignments = listOf(
+            Assignment(title = "Assignment 1", passingScore = 80.0, totalNumber = 100.0, score = 90.0),
+            Assignment(title = "Assignment 2", passingScore = 80.0, totalNumber = 100.0, score = 85.0),
+            Assignment(title = "Assignment 3", passingScore = 80.0, totalNumber = 100.0, score = 95.0)
+        ),
+        exam = Exam(totalNumber = 200.0, score = 170.0, passingScore = 140.0)
+    )
 
-    logger.info{"Student Attendance"}
-    var studentAttendance = readln()
-    studentDetails.put("Student Attendance", studentAttendance)
-
-    logger.info{"Student General Average"}
-    var studentGrade = readln()
-    studentDetails.put("Student General Average", studentGrade)
-
-    logger.info{studentDetails}
 }
+
+//fun main() {
+//    var student1 = Student(
+//        lastName = null,
+//        firstName = null,
+//        middleName = null,
+//        birthDay = null,
+//        cellPhoneNumber = null,
+//        parentsName = null,
+//        emailAddress = null,
+//        homeAddress = null,
+//        dailyAttendance = null,
+//        performance = null
+//    )
+
+//    student1.lastName = "Doe"
+//    student1.firstName = "John"
+//    student1.middleName = "W."
+//    student1.birthDay = Date()
+//    student1.cellPhoneNumber = "0922222222"
+//    student1.parentsName = "Jane and Jack Doe"
+//    student1.emailAddress = "john@gmail.com"
+//    student1.homeAddress = "123 Main St., General Santos City, Philippines"
+//    student1.dailyAttendance = Attendance(present = true, late = false, date = Date())
+//    student1.performance = Performance(
+//        subjectName = "Math",
+//        activities = listOf(
+//            Activity(title = "Activity 1", passingScore = 70.0, totalNumber = 100.0, score = 85.0),
+//            Activity(title = "Activity 2", passingScore = 70.0, totalNumber = 100.0, score = 90.0),
+//            Activity(title = "Activity 3", passingScore = 70.0, totalNumber = 100.0, score = 75.0)
+//        ),
+//        assignments = listOf(
+//            Assignment(title = "Assignment 1", passingScore = 80.0, totalNumber = 100.0, score = 90.0),
+//            Assignment(title = "Assignment 2", passingScore = 80.0, totalNumber = 100.0, score = 85.0),
+//            Assignment(title = "Assignment 3", passingScore = 80.0, totalNumber = 100.0, score = 95.0)
+//        ),
+//        exam = Exam(totalNumber = 200.0, score = 170.0, passingScore = 140.0)
+//    )
+//
+//    println("${student1.lastName}, ${student1.firstName} ${student1.middleName}")
+//    println(student1.birthDay)
+//    println(student1.cellPhoneNumber)
+//    println(student1.parentsName)
+//    println(student1.emailAddress)
+//    println(student1.homeAddress)
+//}
+//

@@ -1,7 +1,6 @@
 package activity06_c
 
 //Here are five possible scenarios where a cart cannot be checked out properly:
-//
 //The cart is empty.
 //The customer does not have enough money to pay for the items in the cart.
 //The customer is not old enough to purchase certain items in the cart (e.g. alcohol, tobacco).
@@ -12,11 +11,30 @@ class Item(val name: String, val price: Double, val ageRestriction: Int)
 
 class Customer(val name: String, val age: Int, val money: Double, val cart: MutableList<Item>)
 
+
+class EmptyCartException(message: String): Exception(message)
+
+class InsufficientFundsException(message: String): Exception(message)
+
+class AgeRestrictionException(message: String): Exception(message)
+
+class OutOfStockException(message: String): Exception(message)
+
+class InvalidPaymentMethodException(message: String): Exception(message)
+
+fun isInStock(item: Item): Boolean {
+    return true
+}
+
+fun isValidPaymentMethod(): Boolean {
+    return true
+}
+
 fun checkOutCart(customer: Customer) {
     if (customer.cart.isEmpty()) {
         throw EmptyCartException("Cannot check out empty cart")
     }
-    if (customer.money < customer.cart.sumByDouble { it.price }) {
+    if (customer.money < customer.cart.sumByDouble{ it.price }) {
         throw InsufficientFundsException("Cannot check out due to insufficient funds")
     }
     if (customer.cart.any { it.ageRestriction > customer.age }) {
@@ -30,29 +48,11 @@ fun checkOutCart(customer: Customer) {
     }
 }
 
-fun isInStock(item: Item): Boolean {
-    // Check if item is in stock
-    return true
-}
-
-fun isValidPaymentMethod(): Boolean {
-    // Check if payment method is valid
-    return true
-}
-
-class EmptyCartException(message: String): Exception(message)
-
-class InsufficientFundsException(message: String): Exception(message)
-
-class AgeRestrictionException(message: String): Exception(message)
-
-class OutOfStockException(message: String): Exception(message)
-
-class InvalidPaymentMethodException(message: String): Exception(message)
 
 fun main() {
     val customer = Customer(
-        "John", 30, 100.0, mutableListOf(
+        "John", 30, 100.0,
+        mutableListOf(
             Item("Book", 20.0, 0),
             Item("Alcohol", 30.0, 21)
         )

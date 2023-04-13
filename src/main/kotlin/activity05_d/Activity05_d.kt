@@ -1,61 +1,228 @@
 package activity05_d
 
-// Parent class for all game pieces (snakes, ladders, players)
-abstract class GamePiece(var position: Int) {
-    abstract fun move(distance: Int)
-}
+import kotlin.random.Random
 
-// Snake class inherits from GamePiece and represents a snake on the board
-class Snake(position: Int, val endPosition: Int): GamePiece(position) {
-    override fun move(distance: Int) {
-        position = endPosition
+
+//Coverage : OOP Inheritance, Encapsulation, Polymorphism, Abstraction
+//You are tasked to create a game.
+//The game is snake and ladders.
+//Identify and create the class that will be needed to implement Snakes and ladders.
+//Hint:
+//You will need an array to represent the board.
+//You will need snakes, ladders and players.
+//Use all OOP concepts.
+
+
+
+//Unit test for this
+
+
+
+class Player(val name: String) {//Encapsulation
+    var currentPosition = 0
+
+    fun rollDice(): Int {
+        return Random.nextInt(1, 7)
     }
 }
 
-// Ladder class inherits from GamePiece and represents a ladder on the board
-class Ladder(position: Int, var endPosition: Int): GamePiece(position) {
-    override fun move(distance: Int) {
-        position = endPosition
+class Game(private val numPlayers: Int, private val boardSize: Int) { //ABSTRACTION
+    private val players = mutableListOf<Player>()
+    private val board = Board(boardSize)
+
+    init {
+        board.addSnake(Snake(17, 7))
+        board.addSnake(Snake(54, 34))
+        board.addSnake(Snake(62, 19))
+        board.addSnake(Snake(64, 60))
+        board.addSnake(Snake(87, 36))
+        board.addSnake(Snake(93, 73))
+        board.addSnake(Snake(95, 75))
+        board.addSnake(Snake(99, 78))
+
+        board.addLadder(Ladder(4, 14))
+        board.addLadder(Ladder(9, 31))
+        board.addLadder(Ladder(20, 38))
+        board.addLadder(Ladder(28, 84))
+        board.addLadder(Ladder(40, 59))
+        board.addLadder(Ladder(51, 67))
+        board.addLadder(Ladder(63, 81))
+        board.addLadder(Ladder(71, 91))
+
+        for (i in 1..numPlayers) {
+            players.add(Player("Player $i"))
+        }
+    }
+
+
+
+    fun playGame() { // POLYMORPHISM
+
+        var currentPlayerIndex = 0
+
+        while (true) {
+            val currentPlayer = players[currentPlayerIndex]
+            val diceValue = currentPlayer.rollDice()
+
+            println("${currentPlayer.name} rolls a $diceValue.")
+
+            currentPlayer.currentPosition += diceValue
+
+            if (currentPlayer.currentPosition >= boardSize) {
+                println("${currentPlayer.name} wins!")
+                break
+            }
+
+            currentPlayer.currentPosition = board.getNextPosition(currentPlayer.currentPosition)
+
+            println("${currentPlayer.name} is now at position ${currentPlayer.currentPosition}.")
+
+            currentPlayerIndex = (currentPlayerIndex + 1) % numPlayers
+        }
     }
 }
 
-// Player class inherits from GamePiece and represents a player on the board
-class Player(position: Int, val name: String): GamePiece(position) {
-    override fun move(distance: Int) {
-        position += distance
+//INHERITANCE
+open class BoardElement(val start: Int, val end: Int)
+
+class Snake(start: Int, end: Int) : BoardElement(start, end)
+
+class Ladder(start: Int, end: Int) : BoardElement(start, end)
+
+class Board(private val size: Int) {
+
+    private val snakes = mutableListOf<Snake>()
+    private val ladders = mutableListOf<Ladder>()
+
+    fun addSnake(snake: Snake) {
+        snakes.add(snake)
+    }
+
+    fun addLadder(ladder: Ladder) {
+        ladders.add(ladder)
+    }
+
+    fun getNextPosition(currentPosition: Int): Int {
+        var nextPosition = currentPosition
+
+        for (snake in snakes) {
+            if (snake.start == currentPosition) {
+                nextPosition = snake.end
+                break
+            }
+        }
+
+        for (ladder in ladders) {
+            if (ladder.start == currentPosition) {
+                nextPosition = ladder.end
+                break
+            }
+        }
+
+        return nextPosition
     }
 }
 
-// Board class represents the game board and contains a list of game pieces (snakes, ladders, players)
-class Board {
-    private val gamePieces = mutableListOf<GamePiece>()
-
-    fun addGamePiece(gamePiece: GamePiece) {
-        gamePieces.add(gamePiece)
-    }
-
-    fun removeGamePiece(gamePiece: GamePiece) {
-        gamePieces.remove(gamePiece)
-    }
-
-    fun moveGamePiece(gamePiece: GamePiece, distance: Int) {
-        gamePiece.move(distance)
-    }
+fun main() {
+    val game = Game(2, 100)
+    game.playGame()
 }
 
-// Game class represents the Snake and Ladders game and contains a Board object
-class Game {
-    val board = Board()
+//class Player(val name: String) {
+//    var currentPosition = 0
+//
+//    fun rollDice(): Int {
+//        return Random.nextInt(1, 7)
+//    }
+//}
+//
+//class Snake(val start: Int, val end: Int)
+//
+//class Ladder(val start: Int, val end: Int)
+//
+//class Board(val size: Int) {
+//    val snakes = mutableListOf<Snake>()
+//    val ladders = mutableListOf<Ladder>()
+//
+//    fun addSnake(snake: Snake) {
+//        snakes.add(snake)
+//    }
+//
+//    fun addLadder(ladder: Ladder) {
+//        ladders.add(ladder)
+//    }
+//
+//    fun getNextPosition(currentPosition: Int): Int {
+//        var nextPosition = currentPosition
+//
+//        for (snake in snakes) {
+//            if (snake.start == currentPosition) {
+//                nextPosition = snake.end
+//                break
+//            }
+//        }
+//
+//        for (ladder in ladders) {
+//            if (ladder.start == currentPosition) {
+//                nextPosition = ladder.end
+//                break
+//            }
+//        }
+//
+//        return nextPosition
+//    }
+//}
+//
+//class Game(val numPlayers: Int, val boardSize: Int) {
+//    val players = mutableListOf<Player>()
+//    val board = Board(boardSize)
+//
+//    init {
+//        board.addSnake(Snake(17, 7))
+//        board.addSnake(Snake(54, 34))
+//        board.addSnake(Snake(62, 19))
+//        board.addSnake(Snake(64, 60))
+//        board.addSnake(Snake(87, 36))
+//        board.addSnake(Snake(93, 73))
+//        board.addSnake(Snake(95, 75))
+//        board.addSnake(Snake(99, 78))
+//
+//        board.addLadder(Ladder(4, 14))
+//        board.addLadder(Ladder(9, 31))
+//        board.addLadder(Ladder(20, 38))
+//        board.addLadder(Ladder(28, 84))
+//        board.addLadder(Ladder(40, 59))
+//        board.addLadder(Ladder(51, 67))
+//        board.addLadder(Ladder(63, 81))
+//        board.addLadder(Ladder(71, 91))
+//
+//        for (i in 1..numPlayers) {
+//            players.add(Player("Player $i"))
+//        }
+//    }
+//
+//    fun playGame() {
+//        var currentPlayerIndex = 0
+//
+//        while (true) {
+//            val currentPlayer = players[currentPlayerIndex]
+//            val diceValue = currentPlayer.rollDice()
+//
+//            println("${currentPlayer.name} rolls a $diceValue.")
+//
+//            currentPlayer.currentPosition += diceValue
+//            if (currentPlayer.currentPosition >= boardSize) {
+//                println("${currentPlayer.name} wins!")
+//                break
+//            }
+//
+//            currentPlayer.currentPosition = board.getNextPosition(currentPlayer.currentPosition)
+//
+//            println("${currentPlayer.name} is now at position ${currentPlayer.currentPosition}.")
+//
+//            currentPlayerIndex = (currentPlayerIndex + 1) % numPlayers
+//        }
+//    }
+//}
+//
 
-    fun addGamePiece(gamePiece: GamePiece) {
-        board.addGamePiece(gamePiece)
-    }
-
-    fun removeGamePiece(gamePiece: GamePiece) {
-        board.removeGamePiece(gamePiece)
-    }
-
-    fun moveGamePiece(gamePiece: GamePiece, distance: Int) {
-        board.moveGamePiece(gamePiece, distance)
-    }
-}

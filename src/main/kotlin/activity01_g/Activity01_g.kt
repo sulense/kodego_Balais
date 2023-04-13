@@ -19,11 +19,15 @@ GATE - Not Palindrome
 
 fun main() {
 
-   while(true){
-       var userInput:String = readLine().toString()
-       if(userInput.reversed() == userInput){
-           logger.info{"Palindrome"}
+   while(true) {
+       logger.info { "Enter a Word: " }
+       var input: String = readLine().toString()
+            if(input == "" || input == null){
+                logger.info{"You didn't enter any word"}
+            } else{
+               if (input.reversed() == input) {
+               logger.info { "${input.uppercase()} is a Palindrome" }
+           } else logger.info { "${input.uppercase()} is not a Palindrome" }
        }
-       else logger.info{"Not a Palindrome"}
    }
 }

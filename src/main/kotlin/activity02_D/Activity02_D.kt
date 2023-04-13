@@ -1,60 +1,41 @@
 package activity02_D
 
-import java.math.BigDecimal
+import mu.KotlinLogging
 
+//Implement Activity 01 - D using data structure.
 
+private val logger = KotlinLogging.logger {}
 fun main() {
-    var monetary1:Int?= null
-    var monetary2:Int?= null
-    var monetary3:Int?= null
-    var monetary4:Int?= null
-    var monetary5:Int?= null
-    var totalMonetary:Int? =null
 
-    println("Please enter the 5 monetary amount")
+    val inputList = mutableListOf<Double>()
+    var inputCount = 0
 
-    print("1. ")
-    monetary1 = readLine()!!.toIntOrNull()
-    if (monetary1 == null) {
-        print("Please use Number!")
-        return
+    while (inputCount < 5) {
+        logger.info{"Enter a monetary amount: "}
+        val input = readLine()!!.toDoubleOrNull()
+        if (input != null) {
+            inputList.add(input)
+            inputCount++
+        } else {
+            logger.info{"Invalid input. Please enter a valid monetary amount."}
+        }
     }
-    else (print("2. "))
 
-    monetary2 = readLine()!!.toIntOrNull()
-    if (monetary2 == null) {
-        print("Please use Number!")
+    logger.info{"Divide the value by how many? "}
+    val divisor = readLine()!!.toIntOrNull()
+    if (divisor != null && divisor > 0) {
+        val total = inputList.sum()
+        val result = total / divisor
+        logger.info{"The total of the 5 input is $total, and when divided by $divisor, the result is $result."}
+    } else {
+        logger.info{"Invalid input. Please enter a positive integer."}
     }
-    else (print("3. "))
-
-    monetary3 = readLine()!!.toIntOrNull()
-    if (monetary3 == null) {
-        print("Please use Number!")
-    }
-    else (print("4. "))
-
-    monetary4 = readLine()!!.toIntOrNull()
-    if (monetary4 == null) {
-        print("Please use Number!")
-    }
-    else (print("5. "))
-
-    monetary5 = readLine()!!.toIntOrNull()
-    if (monetary5 == null) {
-        print("Please use Number!")
-    }
-    else (print("Divide by how many? "))
-
-    var divideByHowMany = readLine()!!.toIntOrNull()
-    if (divideByHowMany == null) { println("Please use Number!")
-    }
-    else if (divideByHowMany == 0){ println("undefined")
-    }
-    else totalMonetary = monetary1!! + monetary2!! + monetary3!! + monetary4!! + monetary5!!
-    var result = totalMonetary!!.div(divideByHowMany!!)
-    println(result)
-
 }
+
+
+
+
+
 
 
 

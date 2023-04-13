@@ -3,18 +3,64 @@ package activity01_b
 import java.util.Date
 
 fun main() {
-//BOOK 1
-    var book1Title:String? = null
-    var book1Genre:String? = null
-    var book1Author:String?= null
-    var book1PageNumber:Int? = null
-    var book1VolumeNumber:Int? = null
-    var book1DatePublished: Date? = null
-//BOOK 2
-    var book2Title:String? = null
-    var book2Genre:String? = null
-    var book2Author:String? = null
-    var book2PageNumber:Int? = null
-    var book2VolumeNumber:Int? = null
-    var book2DatePublished:Date? = null
+//    Books
+    var title: String
+    var author: String
+    var bookPublisher: String
+    var bookPublicationDate: Date
+    var iSBN: String
+    var bookGenre: String
+    var bookNumberOfPages: Int
+
+//    Magazines
+
+    var magazinetitle: String
+    var magazinePublisher: String
+    var magazinePublicationDate: Date
+    var iSSN: String
+    var magazineGenre: String
+    var magazineNumberOfPages: Int
+
+//    Journals
+
+    var journalTitle: String
+    var journalPublisher: String
+    var journalPublicationDate: Date
+    var journalISSN: String
+    var journalNumberOfPages: Int
+
+
+//Audiobooks:
+
+    var audiobooksTitle: String
+    var audiobooksAuthor: String
+    var audiobooksNarrator: String
+    var audiobooksPublisher: String
+    var audiobooksPublicationDate: Date
+    var audiobooksISBN: String
+    var audiobooksGenre: String
+    var audiobooksRunningTime: Int
+
+//E-books:
+
+    var eBooksTitle: String
+    var eBooksAuthor: String
+    var eBooksPublisher: String
+    var eBooksPublicationDate: Date
+    var eBooksISBN: String
+    var eBooksGenre: String
+
+//Reference Materials:
+
+    var refMatsTitle: String
+    var refMatsAuthor: String
+    var refMatsPublisher: String
+    var refMatsPublicationDate: Date
+    var refMatsISBN: String
+    var refMatsGenre: String
+    var refMatsNumberOfPages: Int
 }
+
+
+
+

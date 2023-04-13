@@ -5,19 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e65bcdb-b510-4402-9109-d1c4e83b3cd1" name="Changes" comment="Updating Activities">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_c/Activity05_c.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_d/Activity05_d.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity06_a/Activity06_c.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity06_b/Activity06_b.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity06_c/Activity06_c.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity07_a/Activity07_a.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity07_b/activity07_b.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity06_a/Activity06_a.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_I/Activity01_I.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_I/Activity01_I.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_a/Activity01_a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_a/Activity01_a.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_b/Activity01_b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_b/Activity01_b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_d/Activity01_d.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_d/Activity01_d.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_f/Activity01_f.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_f/Activity01_f.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_g/Activity01_g.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_g/Activity01_g.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_h/Activity01_h.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_h/Activity01_h.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity01_j/Activity01_j.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity01_j/Activity01_j.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity02_A/Activity02_A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_A/Activity02_A.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity02_B/Activity02_B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_B/Activity02_B.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity02_C/Activity02_C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_C/Activity02_C.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity02_D/Activity02_D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity02_D/Activity02_D.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity03_a/Activity03_A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity03_a/Activity03_A.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity03_b/Activity03_B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity03_b/Activity03_B.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity03_c/Activity03_C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity03_c/Activity03_C.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity04_a/Activity04_a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity04_a/Activity04_a.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity04_b_inc/Activity04_b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity04_b_inc/Activity04_b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity04_c/Activity04_c.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity04_c/Activity04_c.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity05_a/Activity05_a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_a/Activity05_a.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity05_b/Activity05_b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_b/Activity05_b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity05_c/Activity05_c.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_c/Activity05_c.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity05_d/Activity05_d.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity05_d/Activity05_d.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity06_a/Activity06_c.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity06_b/Activity06_b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity06_b/Activity06_b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity06_c/Activity06_c.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity06_c/Activity06_c.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity07_a/Activity07_a.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity07_a/Activity07_a.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity07_b/activity07_b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity07_b/activity07_b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity07_c/Activity07_c.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity07_c/Activity07_c.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/excercise_oop_inc/Excercise_OOP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/excercise_oop_inc/Excercise_OOP.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +69,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -83,41 +103,69 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "last_opened_file_path": "D:/JDKs",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Activity01_IKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity01_I.Activity01_IKt" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Activity02_DKt">
+    <configuration name="CheckGradeUnderTest.testCalculateAverageGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KodeGoExcercisesBalais1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activity07_a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="activity07_a" />
+      <option name="MAIN_CLASS_NAME" value="activity07_a.CheckGradeUnderTest" />
+      <option name="METHOD_NAME" value="testCalculateAverageGrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductTest.applyDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KodeGoExcercisesBalais1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ProductTest" />
+      <option name="METHOD_NAME" value="applyDiscount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Activity02_DKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity02_D.Activity02_DKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity01_jKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity01_j.Activity01_jKt" />
+    <configuration name="Activity05_dKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity05_d.Activity05_dKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity02_AKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity02_A.Activity02_AKt" />
-      <module name="KodeGoExcercisesBalais1.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Activity04_aKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity04_a.Activity04_aKt" />
-      <module name="KodeGoExcercisesBalais1.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Activity04_bKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity04_b_inc.Activity04_bKt" />
+    <configuration name="Activity06_cKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity06_c.Activity06_cKt" />
       <module name="KodeGoExcercisesBalais1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Activity04_bKt" />
-        <item itemvalue="Kotlin.Activity04_aKt" />
-        <item itemvalue="Kotlin.Activity01_jKt" />
-        <item itemvalue="Kotlin.Activity02_AKt" />
-        <item itemvalue="Kotlin.Activity01_IKt" />
+        <item itemvalue="Kotlin.Activity02_DKt" />
+        <item itemvalue="Kotlin.Activity05_dKt" />
+        <item itemvalue="Kotlin.Activity06_cKt" />
+        <item itemvalue="JUnit.CheckGradeUnderTest.testCalculateAverageGrade" />
+        <item itemvalue="JUnit.ProductTest.applyDiscount" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665919653839</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updating Activities">
+      <created>1672653906786</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672653906786</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
